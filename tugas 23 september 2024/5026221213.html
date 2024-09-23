@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Clients Love Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+        .testimonial-section {
+            padding: 50px 0;
+        }
+        .testimonial-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #e0e0e0;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+        }
+        .testimonial-icon::after {
+            content: "\1F464";
+            font-size: 20px;
+            color: #a0a0a0;
+        }
+        .testimonial-text {
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        .client-name {
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 0;
+            color: #333;
+        }
+        .client-title {
+            font-size: 0.75rem;
+            color: #999;
+        }
+        .client-logos {
+            background-color: #f0f0f0;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .logo-placeholder {
+            background-color: #f0f0f0;
+            color: #999;
+            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+            display: inline-block;
+            margin-right: 15px;
+            width: 120px; /* Adjust width as needed */
+        }
+        
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .testimonial-section {
+                padding: 20px 0;
+            }
+            .testimonial-icon {
+                width: 30px;
+                height: 30px;
+            }
+            .testimonial-text {
+                font-size: 0.8rem;
+            }
+            .client-name {
+                font-size: 0.75rem;
+            }
+            .client-title {
+                font-size: 0.65rem;
+            }
+            .logo-placeholder {
+                width: 90px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .testimonial-section {
+                padding: 10px 0;
+            }
+            .testimonial-icon {
+                width: 20px;
+                height: 20px;
+            }
+            .testimonial-text {
+                font-size: 0.7rem;
+            }
+            .client-name {
+                font-size: 0.65rem;
+            }
+            .client-title {
+                font-size: 0.55rem;
+            }
+            .logo-placeholder {
+                width: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container testimonial-section">
+        <h2 class="text-center mb-5" style="font-size: 1.5rem; font-weight: bold;">OUR CLIENTS LOVE US</h2>
+        
+        <div class="row g-4">
+            <div class="col-md-6 mb-4">
+                <div class="d-flex">
+                    <div class="testimonial-icon flex-shrink-0"></div>
+                    <div>
+                        <p class="testimonial-text">"Traveloka benar-benar memudahkan perjalanan saya! Proses pemesanan tiket pesawat dan hotel sangat cepat dan mudah. Saya sangat puas dengan layanan mereka."</p>
+                        <p class="client-name">SRI MULYANI</p>
+                        <p class="client-title">Menteri Ekonomi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="d-flex">
+                    <div class="testimonial-icon flex-shrink-0"></div>
+                    <div>
+                        <p class="testimonial-text">"Aplikasi Traveloka sangat user-friendly dan menawarkan banyak pilihan penerbangan dan hotel dengan harga terbaik. Saya selalu mengandalkan Traveloka untuk semua kebutuhan perjalanan saya."</p>
+                        <p class="client-name">NAJWA SHIHAB</p>
+                        <p class="client-title">Jurnalis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="d-flex">
+                    <div class="testimonial-icon flex-shrink-0"></div>
+                    <div>
+                        <p class="testimonial-text">"Pengalaman saya menggunakan Traveloka sangat memuaskan. Dukungan pelanggan mereka sangat responsif dan membantu ketika saya mengalami masalah dengan pemesanan saya."</p>
+                        <p class="client-name">JOKO WIDODO</p>
+                        <p class="client-title">Presiden RI</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="d-flex">
+                    <div class="testimonial-icon flex-shrink-0"></div>
+                    <div>
+                        <p class="testimonial-text">"Traveloka adalah aplikasi yang luar biasa! Saya bisa menemukan promo menarik dan diskon besar untuk tiket pesawat dan hotel. Sangat direkomendasikan untuk para traveler!"</p>
+                        <p class="client-name">TANBOY KUN</p>
+                        <p class="client-title">Food Blogger</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="client-logos mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="logo-placeholder">
+                        <img class="img-fluid" src="IATA.png" alt="IATA">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="logo-placeholder">
+                        <img class="img-fluid" src="TRAC.png" alt="TRAC">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="logo-placeholder">
+                        <img class="img-fluid" src="AP.png" alt="AP">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="logo-placeholder">
+                        <img class="img-fluid" src="KAI.png" alt="KAI">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="logo-placeholder">
+                        <img class="img-fluid" src="SHOPEE.png" alt="SHOPEE">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="logo-placeholder">
+                        <img class="img-fluid" src="IBIS.png" alt="IBIS">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
